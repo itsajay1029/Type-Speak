@@ -55,7 +55,7 @@ const speak=()=>{
     bn.textContent="Speaking..."
     bn.classList.add('bg-primary')
     body.style=`
-        background:black url(YdBO.gif);
+        background:black url(doc/YdBO.gif);
         background-size:contain;
         background-repeat:repeat;
     `
