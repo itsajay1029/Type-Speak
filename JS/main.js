@@ -24,7 +24,7 @@ const getVoices=()=>{
     });
     
 }
-
+getVoices();
 if(speaker.onvoiceschanged !== undefined){
     speaker.onvoiceschanged=getVoices;
 }
